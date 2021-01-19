@@ -1,0 +1,824 @@
+Package: A3
+Version: 1.0.0
+Depends: R (>= 2.15.0), xtable, pbapply
+Suggests: randomForest, e1071
+License: GPL (>= 2)
+MD5sum: 027ebdd8affce8f0effaecfcd5f5ade2
+NeedsCompilation: no
+
+Package: aaSEA
+Version: 1.1.0
+Depends: R(>= 3.4.0)
+Imports: DT(>= 0.4), networkD3(>= 0.4), shiny(>= 1.0.5),
+        shinydashboard(>= 0.7.0), magrittr(>= 1.5), Bios2cor(>= 2.0),
+        seqinr(>= 3.4-5), plotly(>= 4.7.1), Hmisc(>= 4.1-1)
+Suggests: knitr, rmarkdown
+License: GPL-3
+MD5sum: 0f9aaefc1f1cf18b6167f85dab3180d8
+NeedsCompilation: no
+
+Package: AATtools
+Version: 0.0.1
+Depends: R (>= 3.6.0)
+Imports: magrittr, dplyr, doParallel, foreach
+License: GPL-3
+MD5sum: 3bd92dbd94573afb17ebc5eab23473cb
+NeedsCompilation: no
+
+Package: ABACUS
+Version: 1.0.0
+Depends: R (>= 3.1.0)
+Imports: ggplot2 (>= 3.1.0), shiny (>= 1.3.1),
+Suggests: rmarkdown (>= 1.13), knitr (>= 1.22)
+License: GPL-3
+MD5sum: 50c54c4da09307cb95a70aaaa54b9fbd
+NeedsCompilation: no
+
+Package: abbyyR
+Version: 0.5.5
+Depends: R (>= 3.2.0)
+Imports: httr, XML, curl, readr, plyr, progress
+Suggests: testthat, rmarkdown, knitr (>= 1.11), lintr
+License: MIT + file LICENSE
+MD5sum: e048a3bca6ea32126e6c367415c0bfaf
+NeedsCompilation: no
+
+Package: abc
+Version: 2.1
+Depends: R (>= 2.10), abc.data, nnet, quantreg, MASS, locfit
+License: GPL (>= 3)
+MD5sum: c9fffe4334c178917f762735aba59653
+NeedsCompilation: no
+
+Package: abc.data
+Version: 1.0
+Depends: R (>= 2.10)
+License: GPL (>= 3)
+MD5sum: 799079dbbdd0cfc9d9c61c3e35241806
+NeedsCompilation: no
+
+Package: ABC.RAP
+Version: 0.9.0
+Depends: R (>= 3.1.0)
+Imports: graphics, stats, utils
+Suggests: knitr, rmarkdown
+License: GPL-3
+MD5sum: 38c65a7251d28ef2462ee430ded95700
+NeedsCompilation: no
+
+Package: abcADM
+Version: 1.0
+Imports: Rcpp (>= 1.0.1)
+LinkingTo: Rcpp, BH
+License: GPL-3
+MD5sum: 8134f67912b506194e3dab4ccd6e75f7
+NeedsCompilation: yes
+
+Package: ABCanalysis
+Version: 1.2.1
+Depends: R (>= 2.10)
+Imports: plotrix
+License: GPL-3
+MD5sum: 678e03837e25a922bf71bafe1f8de617
+NeedsCompilation: no
+
+Package: abcdeFBA
+Version: 0.4
+Depends: Rglpk,rgl,corrplot,lattice,R (>= 2.10)
+Suggests: LIM,sybil
+License: GPL-2
+MD5sum: c84d45a85d8ab6bbe517365e8845db83
+NeedsCompilation: no
+
+Package: ABCoptim
+Version: 0.15.0
+Imports: Rcpp, graphics, stats, utils
+LinkingTo: Rcpp
+Suggests: testthat, covr
+License: MIT + file LICENSE
+MD5sum: a62ed03650273c09899655065437078f
+NeedsCompilation: yes
+
+Package: ABCp2
+Version: 1.2
+Depends: MASS
+License: GPL-2
+MD5sum: e920282d5a369df71e15241be40cb60e
+NeedsCompilation: no
+
+Package: abcrf
+Version: 1.8.1
+Depends: R(>= 3.1)
+Imports: readr, MASS, matrixStats, ranger, doParallel, parallel,
+        foreach, stringr, Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+MD5sum: 4d5a304f46d117226791523cef4e2427
+NeedsCompilation: yes
+
+Package: abcrlda
+Version: 1.0.3
+Imports: stats
+License: GPL-3
+MD5sum: 651e6e18e08916b443aaf011b5a63525
+NeedsCompilation: no
+
+Package: abctools
+Version: 1.1.3
+Depends: R (>= 2.10), abc, abind, parallel, plyr, Hmisc
+Suggests: ggplot2, abc.data
+License: GPL (>= 2)
+MD5sum: c5937b65837ef7e6bfbe141cea257f40
+NeedsCompilation: yes
+
+Package: abd
+Version: 0.2-8
+Depends: R (>= 3.0), nlme, lattice, grid, mosaic
+Suggests: boot, car, ggplot2, plyr, HH, ICC, vcd, Hmisc
+License: GPL-2
+MD5sum: 1913d76a0fbc44222709381f63f385b9
+NeedsCompilation: no
+
+Package: abdiv
+Version: 0.2.0
+Imports: ape
+Suggests: testthat (>= 2.1.0), vegan
+License: MIT + file LICENSE
+MD5sum: 80931c0ca85ba5386000bf617552c5ce
+NeedsCompilation: no
+
+Package: abe
+Version: 3.0.1
+License: GPL (>= 2)
+MD5sum: 9c151db5397422c8927dee41dabfbfab
+NeedsCompilation: no
+
+Package: abf2
+Version: 0.7-1
+License: Artistic-2.0
+MD5sum: 6792a51c6fb3e239165d69aa8a71d3cd
+NeedsCompilation: no
+
+Package: ABHgenotypeR
+Version: 1.0.1
+Imports: ggplot2, reshape2, utils
+Suggests: knitr, rmarkdown
+License: GPL-3
+MD5sum: ca4397ba7390c0e0a3728c0cda864494
+NeedsCompilation: no
+
+Package: abind
+Version: 1.4-5
+Depends: R (>= 1.5.0)
+Imports: methods, utils
+License: LGPL (>= 2)
+MD5sum: 136f981e1c4f618b64a87faaa7797c97
+NeedsCompilation: no
+
+Package: abjutils
+Version: 0.3.1
+Depends: R (>= 4.0)
+Imports: dplyr, magrittr, purrr, rlang, rstudioapi, stringi, stringr,
+        tidyr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: a596c07aaa7f82e5d123b2f7354e5b55
+NeedsCompilation: no
+
+Package: abnormality
+Version: 0.1.0
+Imports: MASS (>= 7.3.0), Matrix
+License: MIT + file LICENSE
+MD5sum: da052e7d38d02c5c050e7879f2713345
+NeedsCompilation: no
+
+Package: abodOutlier
+Version: 0.1
+Depends: cluster, R (>= 3.1.2)
+License: MIT + file LICENSE
+MD5sum: e3782e42842fc893d036bdfb7fd86d91
+NeedsCompilation: no
+
+Package: ABPS
+Version: 0.3
+Imports: kernlab
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 2f09a946652530e319d433d7f0362be8
+NeedsCompilation: no
+
+Package: AbSim
+Version: 0.2.6
+Depends: R(>= 3.1.0), ape, poweRlaw
+Suggests: knitr, rmarkdown
+License: GPL-2
+MD5sum: b31c49e56a211fee06391c7677cef511
+NeedsCompilation: no
+
+Package: abstractr
+Version: 0.1.0
+Imports: shiny (>= 1.2.0), ggplot2 (>= 3.0.0), gridExtra (>= 2.3.0),
+        colourpicker, shinythemes, emojifont, rintrojs
+Suggests: knitr, rmarkdown
+License: GPL-3
+MD5sum: 696a9da933b8bc0bb4c93bedc2aa876b
+NeedsCompilation: no
+
+Package: abtest
+Version: 0.2.2
+Depends: R (>= 3.0.0)
+Imports: Rcpp (>= 0.12.14), mvtnorm, sn, qgam, truncnorm, plotrix,
+        grDevices, RColorBrewer, Matrix, parallel
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: b759087da7d2c2ea5262395520d98e68
+NeedsCompilation: yes
+
+Package: Ac3net
+Version: 1.2.2
+Depends: R (>= 3.3.0), data.table
+License: GPL (>= 3)
+MD5sum: 3bb784a260f3754e7c265660684ffbe0
+NeedsCompilation: no
+
+Package: ACA
+Version: 1.1
+Depends: R (>= 3.2.2)
+Imports: graphics, grDevices, stats, utils
+License: GPL
+MD5sum: 440366eae322247ff50a5ab94fec360c
+NeedsCompilation: no
+
+Package: acc
+Version: 1.3.3
+Depends: R (>= 2.10), mhsmm
+Imports: zoo, PhysicalActivity, nleqslv, plyr, methods, DBI, RSQLite,
+        circlize, ggplot2, R.utils, iterators, Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+MD5sum: f5690563afe4e9667f0e090ea93fc633
+NeedsCompilation: yes
+
+Package: accelerometry
+Version: 3.1.2
+Depends: R (>= 3.0.0)
+Imports: Rcpp (>= 0.12.15), dvmisc
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown, pander
+License: GPL-3
+MD5sum: 13735aa9e9f592896feb731b0e691e5a
+NeedsCompilation: yes
+
+Package: accelmissing
+Version: 1.4
+Depends: R (>= 2.10), mice, pscl
+License: GPL (>= 2)
+MD5sum: 4c93ab135bd717c9c0c5e7dadac6a099
+NeedsCompilation: no
+
+Package: accept
+Version: 0.7.1
+Depends: R (>= 3.4.0)
+Imports: stats, MASS, dplyr, stringr, extrafont, plotly, viridis
+License: GPL-3
+MD5sum: a74d510c0a6be819c72dfd64b1b93b92
+NeedsCompilation: no
+
+Package: AcceptanceSampling
+Version: 1.0-6
+Depends: methods, R(>= 2.4.0), stats
+Imports: graphics, utils
+License: GPL (>= 3)
+MD5sum: 3ef05dc47023f7e4785b5053315bdfcb
+NeedsCompilation: no
+
+Package: ACCLMA
+Version: 1.0
+License: GPL-2
+MD5sum: f744dd332bec19af82bd338ae2f11524
+NeedsCompilation: no
+
+Package: accrual
+Version: 1.3
+Depends: R(>= 3.1.3), tcltk2
+Imports: fgui, SMPracticals
+License: GPL-2
+MD5sum: 0fbfc90f50a173102c8486d993bb8687
+NeedsCompilation: no
+
+Package: accSDA
+Version: 1.0.0
+Depends: R (>= 3.2)
+Imports: MASS (>= 7.3.45), rARPACK (>= 0.10.0), sparseLDA (>= 0.1.7),
+        ggplot2 (>= 2.1.0), ggthemes (>= 3.2.0), grid (>= 3.2.2),
+        gridExtra (>= 2.2.1)
+License: GPL (>= 2)
+MD5sum: 6de7bb71610edcf93c8b89e2ab71b5b0
+NeedsCompilation: no
+
+Package: ACD
+Version: 1.5.3
+Depends: R(>= 2.13.0)
+License: GPL (>= 2)
+MD5sum: f9f9cbad524ff309dfcd4a8a48a0aab2
+NeedsCompilation: no
+
+Package: ACDm
+Version: 1.0.4
+Depends: R(>= 2.10.0)
+Imports: plyr, dplyr, ggplot2, Rsolnp, zoo, graphics,
+Suggests: optimx, rgl,
+License: GPL (>= 2)
+MD5sum: aaba33f455eedfbd5c969babc3432c75
+NeedsCompilation: yes
+
+Package: ace2fastq
+Version: 0.6.0
+Imports: stringr
+Suggests: testthat, knitr, rmarkdown, covr
+License: GPL-3
+MD5sum: 06ca563cb9583866ac55273138a359a8
+NeedsCompilation: no
+
+Package: acebayes
+Version: 1.10
+Depends: R (>= 3.5.0), lhs
+Imports: Rcpp (>= 0.12.9), compare, randtoolbox, parallel
+LinkingTo: Rcpp, RcppArmadillo (>= 0.9.100.5.0)
+License: GPL-2
+MD5sum: 3c0bc4f2709e54ac4c1813fc3cf5143f
+NeedsCompilation: yes
+
+Package: aceEditor
+Version: 1.0.0
+Imports: htmltools, htmlwidgets, reactR, rstudioapi, tools
+License: GPL-3
+MD5sum: ef7a37bc86c115eeb06580ba10f0f089
+NeedsCompilation: no
+
+Package: acepack
+Version: 1.4.1
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: a35354655e5260afa0e1860fcc68d871
+NeedsCompilation: yes
+
+Package: ACEsearch
+Version: 1.0.0
+Imports: httr, testthat
+License: MIT + file LICENSE
+MD5sum: efca4f237f0b89e4f3544f7f7ab101d5
+NeedsCompilation: no
+
+Package: ACEt
+Version: 1.8.1
+Depends: R (>= 3.1.1)
+Imports: Rcpp (>= 0.11.1), splines, MASS
+LinkingTo: BH, RcppArmadillo, Rcpp
+License: GPL (>= 2)
+MD5sum: 5a7bcd68d05690ac697aba2414784c61
+NeedsCompilation: yes
+
+Package: acfMPeriod
+Version: 1.0.0
+Depends: R (>= 3.2.2), MASS
+License: GPL (>= 2)
+MD5sum: ddc0c9a86eb7c1a2955510e3979addc9
+NeedsCompilation: no
+
+Package: acid
+Version: 1.1
+Depends: gamlss,gamlss.dist,Hmisc,stats,graphics,splines
+Imports: grDevices,utils,datasets,methods
+Suggests: ineq
+License: GPL-3
+MD5sum: bd22d1cd6a58a7d7340680a066935b37
+NeedsCompilation: no
+
+Package: acled.api
+Version: 1.0.9
+Imports: httr, jsonlite
+Suggests: testthat
+License: CC BY-NC 4.0
+MD5sum: a43c0c93318b014b0b45225a95015004
+NeedsCompilation: no
+
+Package: acmeR
+Version: 1.1.0
+Depends: R (>= 3.1.1)
+Imports: foreign (>= 0.8-63), grDevices (>= 3.1.1), graphics (>=
+        3.1.1), stats (>= 3.1.1), utils (>= 3.1.1)
+Suggests: knitr, devtools
+License: MIT + file LICENSE
+MD5sum: 2c3d5551774023fe7f51c66bd46db2b9
+NeedsCompilation: no
+
+Package: ACNE
+Version: 0.8.1
+Depends: R (>= 3.0.0), aroma.affymetrix (>= 2.14.0)
+Imports: MASS, R.methodsS3 (>= 1.7.0), R.oo (>= 1.19.0), R.utils (>=
+        2.1.0), matrixStats (>= 0.14.2), R.filesets (>= 2.9.0),
+        aroma.core (>= 2.14.0)
+Suggests: DNAcopy
+License: LGPL (>= 2.1)
+MD5sum: 3415a73910a2353ece28ed4406b63b63
+NeedsCompilation: no
+
+Package: acnr
+Version: 1.0.0
+Depends: R (>= 2.10),
+Suggests: R.utils, knitr, rmarkdown, testthat
+License: LGPL (>= 2.1)
+MD5sum: df1eefcc652c0676beaebbdc240f244f
+NeedsCompilation: no
+
+Package: acopula
+Version: 0.9.3
+Suggests: mvtnorm
+License: GPL-2
+MD5sum: c5ae0cd49c78b1049d3d7666b31d72b7
+NeedsCompilation: no
+
+Package: AcousticNDLCodeR
+Version: 1.0.2
+Depends: R (>= 3.0.0)
+Imports: tuneR, zoo, seewave, parallel
+License: GPL (>= 2)
+MD5sum: 102705ab8ee33e0cc170c0ea42bba5b6
+NeedsCompilation: no
+
+Package: acp
+Version: 2.1
+Depends: tseries,quantmod
+License: GPL-2
+MD5sum: d27ec8c2465e7cada6926f6585c91c12
+NeedsCompilation: no
+
+Package: aCRM
+Version: 0.1.1
+Imports: dummies, randomForest, kernelFactory, ada
+License: GPL (>= 2)
+MD5sum: 3666977f6b477c487d5e81b93b5c87b8
+NeedsCompilation: no
+
+Package: AcrossTic
+Version: 1.0-3
+Depends: treeClust (>= 1.1-6), lpSolve
+License: GPL (>= 2)
+MD5sum: f768c68b8fcf88563482664544175147
+NeedsCompilation: no
+
+Package: acrt
+Version: 1.0.1
+Imports: methods, stats, sandwich, Rcpp
+LinkingTo: Rcpp, RcppEigen
+License: GPL-2
+MD5sum: 57b2128bea585e11865c7539874a50fd
+NeedsCompilation: yes
+
+Package: acs
+Version: 2.1.4
+Depends: R (>= 2.10), stringr, methods, XML
+Imports: graphics, stats, plyr, utils, httr
+License: GPL-3
+MD5sum: 266593753bbe3c0a6023849fb768276b
+NeedsCompilation: no
+
+Package: ACSNMineR
+Version: 0.16.8.25
+Depends: R (>= 3.1.0),ggplot2, gridExtra,scales,
+Suggests: rmarkdown, knitr
+License: GPL-2
+MD5sum: bc21ec8e4894a38b731c37604ba2d227
+NeedsCompilation: no
+
+Package: acss
+Version: 0.2-5
+Depends: R (>= 2.15.0), acss.data
+Imports: zoo
+Suggests: effects, lattice
+License: GPL (>= 2)
+MD5sum: 98e6b46a04e3c9f1505de3b63c85e2d8
+NeedsCompilation: no
+
+Package: acss.data
+Version: 1.0
+Depends: R (>= 2.10)
+License: GPL (>= 2)
+MD5sum: c4693bbadf6fbb2e1376fef336277614
+NeedsCompilation: no
+
+Package: ACSWR
+Version: 1.0
+Imports: MASS
+License: GPL-2
+MD5sum: 3dfec0ff570e2922849354ac7f578dc4
+NeedsCompilation: no
+
+Package: act
+Version: 1.0
+Imports: methods, stringr, stringi, tools, textutils, utils, progress,
+        XML, xml2, openxlsx
+License: GPL-3
+MD5sum: e8a67998652df7275e9edd78659600cb
+NeedsCompilation: no
+
+Package: ACTCD
+Version: 1.2-0
+Depends: R (>= 3.1.0), R.methodsS3
+Imports: GDINA, stats, utils
+License: GPL (>= 2)
+MD5sum: b15ed152984168b3dd29df18f9ab4c63
+NeedsCompilation: yes
+
+Package: ActCR
+Version: 0.1.0
+Depends: R (>= 3.5.0),
+Imports: zoo, cosinor, cosinor2, dplyr
+License: GPL-3
+MD5sum: 266b7c84e7a776359d75e6632dd3c4ef
+NeedsCompilation: no
+
+Package: actel
+Version: 1.2.1
+Depends: R (>= 3.6)
+Imports: circular, data.table, DiagrammeR, DiagrammeRsvg, fasttime,
+        ggplot2, svglite, graphics, knitr, readr, reshape2, rmarkdown,
+        rsvg, scales, stats, stringr, stringi, grDevices, utils
+Suggests: raster, gdistance, sp, tools, rgdal, testthat, RGtk2,
+        gWidgets2RGtk2, gWidgets2
+License: GPL-3
+MD5sum: 5d494117687b916e6d7a82273cc7f9e0
+NeedsCompilation: no
+
+Package: ActFrag
+Version: 0.1.1
+Depends: R (>= 3.5.0),
+Imports: accelerometry, dplyr, ineq, survival, stats, tidyr
+Suggests: knitr, rmarkdown, testthat
+License: GPL-3
+MD5sum: 78794c1a49a248d494dabad61d269b20
+NeedsCompilation: no
+
+Package: activatr
+Version: 0.1.0
+Depends: R (>= 4.0.0)
+Imports: dplyr (>= 1.0.0), geosphere (>= 1.5), ggmap (>= 3.0.0), glue
+        (>= 1.4.0), httr (>= 1.4.0), lubridate (>= 1.7.0), magrittr (>=
+        2.0.0), rlang (>= 0.4.0), tibble (>= 3.0.0), timetk (>= 2.6.0),
+        xml2 (>= 1.3.2)
+Suggests: covr (>= 3.5.0), ggplot2 (>= 3.3.0), knitr (>= 1.30), mockery
+        (>= 0.4.2), rmarkdown (>= 2.6), roxygen2 (>= 7.1.0), testthat
+        (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: bfd9ca32e08752fb9613698154e1538d
+NeedsCompilation: no
+
+Package: ActiveDriver
+Version: 1.0.0
+Depends: R (>= 3.0)
+Imports: stats, parallel, MASS
+License: GPL (>= 2)
+MD5sum: b42082d5369e339f36c5a171c1c1848e
+NeedsCompilation: no
+
+Package: ActiveDriverWGS
+Version: 1.1.1
+Depends: R (>= 3.5)
+Imports: BSgenome, BSgenome.Hsapiens.UCSC.hg19, Biostrings,
+        GenomeInfoDb, GenomicRanges, IRanges, S4Vectors
+Suggests: knitr, testthat, BSgenome.Hsapiens.UCSC.hg38,
+        BSgenome.Mmusculus.UCSC.mm9, BSgenome.Mmusculus.UCSC.mm10,
+        rmarkdown
+License: GPL-3
+MD5sum: 1089fb52b41dfd752e8576cea794d9ed
+NeedsCompilation: no
+
+Package: activegp
+Version: 1.0.5
+Depends: R (>= 3.4.0)
+Imports: Rcpp (>= 0.12.18), hetGP (>= 1.1.1), lhs, numDeriv, methods
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: BSD_3_clause + file LICENSE
+MD5sum: 43b4ffb0ccaabbbab8a6048bdd9e7618
+NeedsCompilation: yes
+
+Package: ActivePathways
+Version: 1.0.2
+Depends: R (>= 3.6)
+Imports: data.table, ggplot2
+Suggests: testthat, knitr, rmarkdown, metap, EmpiricalBrownsMethod
+License: GPL-3
+MD5sum: 904ca79ebf857476c75a99dcdc4602c1
+NeedsCompilation: no
+
+Package: activity
+Version: 1.3
+Depends: methods
+Imports: circular, pbapply, insol
+License: GPL-3
+MD5sum: 23623429f932c5aa0a041f1413b82d0f
+NeedsCompilation: no
+
+Package: activityCounts
+Version: 0.1.2
+Depends: R (>= 2.10)
+Imports: seewave, signal, tibble, lubridate, magrittr
+Suggests: knitr, rmarkdown, ggplot2
+License: GPL-3
+MD5sum: be77fdeee64a249cf2996b2bbda775da
+NeedsCompilation: no
+
+Package: ActivityIndex
+Version: 0.3.7
+Depends: R (>= 2.10)
+Imports: matrixStats, data.table, utils, R.utils
+Suggests: knitr, testthat, graphics, rmarkdown
+License: GPL-3
+MD5sum: 2a292e3eaef18840caeb39eb04188286
+NeedsCompilation: no
+
+Package: activPAL
+Version: 0.1.3
+Imports: dplyr, ggplot2, tidyr, lubridate, magrittr, methods, devtools
+Suggests: testthat
+License: GPL-3
+MD5sum: 31beb11c44542e6533bb99e9759b75a4
+NeedsCompilation: no
+
+Package: activpalProcessing
+Version: 1.0.2
+Depends: R (>= 2.10), graphics, grDevices, stats, utils
+Imports: chron
+License: GPL-2 | GPL-3
+MD5sum: f7b56c8d04fe1e770cd987c8340531a7
+NeedsCompilation: no
+
+Package: actogrammr
+Version: 0.2.3
+Imports: dplyr, ggplot2, lubridate, readr, tidyr
+Suggests: testthat, covr
+License: GPL-3
+MD5sum: d1337175c187e877396aaab3d69931cc
+NeedsCompilation: no
+
+Package: actuar
+Version: 3.1-0
+Depends: R (>= 3.3.0)
+Imports: stats, graphics, expint
+LinkingTo: expint
+Suggests: MASS
+License: GPL (>= 2)
+MD5sum: 858e5d082f499ed1a8be85b23aa0c9df
+NeedsCompilation: yes
+
+Package: actuaryr
+Version: 1.1.1
+Imports: lubridate, dplyr, magrittr, crayon, purrr, tibble
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 2dde34bedea0d5f9b1b153895a5f6a6c
+NeedsCompilation: no
+
+Package: AcuityView
+Version: 0.1
+Depends: R (>= 3.0.0)
+Imports: imager (>= 0.40.1), fftwtools (>= 0.9-7), plotrix (>= 3.2.3),
+        tools, grid, grDevices, graphics
+License: GPL (>= 2)
+MD5sum: 5e518f403d2df0d5f813724fa7e29bb5
+NeedsCompilation: no
+
+Package: acumos
+Version: 0.4-1
+Imports: httr, jsonlite, RProtoBuf, Rserve, RestRserve, yaml
+Suggests: randomForest, testthat, callr
+License: Apache License (== 2.0)
+MD5sum: b3ab79e26809fa2744d47e1c045a1681
+NeedsCompilation: no
+
+Package: ada
+Version: 2.0-5
+Depends: R(>= 2.10),rpart
+License: GPL
+MD5sum: 25ac0dc2650fba9e19f3d15c7c6721c1
+NeedsCompilation: no
+
+Package: adabag
+Version: 4.2
+Depends: rpart, caret, foreach, doParallel
+Suggests: mlbench
+License: GPL (>= 2)
+MD5sum: 6f74756575e16c5f59c94105bcf614ea
+NeedsCompilation: no
+
+Package: adagio
+Version: 0.7.1
+Depends: R (>= 3.1.0)
+Imports: graphics, stats
+License: GPL (>= 3)
+MD5sum: f990e864a24c6d5751d63d71da5d58c6
+NeedsCompilation: yes
+
+Package: adamethods
+Version: 1.2.1
+Depends: R (>= 3.4.0)
+Imports: Anthropometry, archetypes, FNN, foreach, graphics, nnls,
+        parallel, stats, tolerance, univOutl, utils
+Suggests: doParallel, fda
+License: GPL (>= 2)
+MD5sum: b9968656ed786b397288f2484c5e79f6
+NeedsCompilation: no
+
+Package: AdapEnetClass
+Version: 1.2
+Depends: imputeYn, glmnet, lars, quadprog, R (>= 3.0.2)
+License: GPL-2
+MD5sum: 77c7802b3d8abd1a29102dcca8a02fa9
+NeedsCompilation: no
+
+Package: AdapSamp
+Version: 1.1.1
+Imports: pracma,stats
+License: GPL-2
+MD5sum: 1b50c4e7187ef2c0c9637f677567c689
+NeedsCompilation: no
+
+Package: adapt4pv
+Version: 0.1.0
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), glmnet (>= 3.0-2)
+Imports: speedglm, xgboost, doParallel, foreach
+License: GPL-2
+MD5sum: 7ff12cf6a9d2c2b86cb0cea84539a3b4
+NeedsCompilation: no
+
+Package: adaptalint
+Version: 0.2.4
+Depends: R (>= 3.3.0)
+Imports: dplyr, lintr, purrr
+Suggests: devtools, git2r, testthat
+License: GPL-3
+MD5sum: 01cade9452855eb8bc301c8f8d24895a
+NeedsCompilation: no
+
+Package: AdaptFit
+Version: 0.2-2
+Depends: SemiPar, MASS, nlme, cluster
+License: GPL (>= 2)
+MD5sum: af98f0adca6434c0012007dd5aa1cad2
+NeedsCompilation: no
+
+Package: AdaptFitOS
+Version: 0.67
+Depends: nlme, MASS, splines
+Imports: mgcv, SemiPar
+License: GPL (>= 2)
+MD5sum: e0753109c028b9be0f194bf75802dd8d
+NeedsCompilation: yes
+
+Package: AdaptGauss
+Version: 1.5.6
+Depends: R (>= 2.10)
+Imports: Rcpp, shiny, pracma, methods, DataVisualizations
+LinkingTo: Rcpp
+Suggests: mclust, grid, foreach, dqrng, parallelDist, knitr (>= 1.12),
+        rmarkdown (>= 0.9), reshape2, ggplot2
+License: GPL-3
+MD5sum: 7bc41d1dacd8e8f4e9b96e0350a3b776
+NeedsCompilation: yes
+
+Package: adaptiveGPCA
+Version: 0.1.2
+Depends: R (>= 3.1.0)
+Imports: ape (>= 3.1.4), ggplot2 (>= 1.0.0), shiny (>= 1.0.0), phyloseq
+        (>= 1.14.0)
+Suggests: knitr, rmarkdown
+License: AGPL-3
+MD5sum: 8e1c598b2e3e603e04fe42ade810e021
+NeedsCompilation: no
+
+Package: AdaptiveSparsity
+Version: 1.6
+Depends: R (>= 3.0.2)
+Imports: MASS, Matrix, Rcpp
+LinkingTo: Rcpp (>= 0.12.13), RcppArmadillo (>= 0.2.0)
+License: LGPL (>= 3.0)
+MD5sum: 2117240389432710cdba18b9fab42645
+NeedsCompilation: yes
+
+Package: adaptivetau
+Version: 2.2-3
+Depends: R (>= 2.10.1)
+Enhances: compiler
+License: GPL (>= 3)
+MD5sum: d97ee2a0a3dd4439b9d3c8f8980e9edc
+NeedsCompilation: yes
+
+Package: adaptMCMC
+Version: 1.3
+Depends: R (>= 2.14.1), parallel, coda, Matrix
+License: GPL (>= 2)
+MD5sum: 6a731afaa1689c637c0aea0f96e69dda
+NeedsCompilation: no

@@ -1,0 +1,31 @@
+<h1>All Index R-Packages</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Version</th>
+    <th>Publication Date</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Authors</th>
+    <th>Maintainers</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @packages.each do |package| %>
+    <tr>
+      <td><%= package.name %></td>
+      <td><%= package.version %></td>
+      <td><%= package.publication_date %></td>
+      <td><%= package.title %></td>
+      <td><%= package.description %></td>
+      <td><%= package.authors.pluck(:name).join(", ") %></td>
+      <td><%= package.maintainers.pluck(:name).join(", ") %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+

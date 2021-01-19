@@ -1,0 +1,5 @@
+Package: abe
+Version: 3.0.1
+License: GPL (>= 2)
+MD5sum: 9c151db5397422c8927dee41dabfbfab
+NeedsCompilation: no
